@@ -6,7 +6,7 @@ but jacoco's code coverage will not generate the needed result.</p>
 See further discussions regarding this problem:
 <ol>
 <li><a href="https://github.com/jacoco/jacoco/issues/18">jacoco issue #18</a></li>
-<li><a href="https://github.com/jacoco/jacoco/issues/69">jacoco issue #8</a></li>
+<li><a href="https://github.com/jacoco/jacoco/issues/69">jacoco issue #69</a></li>
 <li><a href="https://groups.google.com/forum/#!topic/jacoco/9NNAlwuvOwk">Jacoco google groups thread</a></li>
 </ol>
 </p>
@@ -14,8 +14,11 @@ See further discussions regarding this problem:
 <hr/>
 
 <b>forked README</b>
+<br>
 To generate report:
+<br>
 1) Download SonarQube and start it.
+<br>
 2) Execute (I have no idea why relative path is not working):
-     mvn clean install sonar:sonar -Dsonar.jacoco.itReportPath=<absolute_path>/itest/target/jacoco-it.exec
+     <i>mvn clean install sonar:sonar -Dsonar.jacoco.itReportPath=<absolute_path>/itest/target/jacoco-it.exec</i>
     
