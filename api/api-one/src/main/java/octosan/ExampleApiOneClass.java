@@ -1,6 +1,6 @@
 package octosan;
 
-public class ExampleApiClass {
+public class ExampleApiOneClass {
 
     public String exampleApiMethodTestedByIT(int intt, String string) {
         StringBuffer result = new StringBuffer(); 

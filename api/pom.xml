@@ -10,7 +10,12 @@
 
 	<groupId>octosan.octosan</groupId>
 	<artifactId>api</artifactId>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<name>Octosan  - API</name>
+
+    <modules>
+        <module>api-one</module>
+        <module>api-two</module>
+    </modules>
 
 </project>

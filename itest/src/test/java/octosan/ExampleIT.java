@@ -12,7 +12,12 @@ public class ExampleIT {
     }
     
     @Test
-    public void apiTest() {
-        assertEquals("woowwoowwoow", new ExampleApiClass().exampleApiMethodTestedByIT(3, "woow"));        
+    public void apiOneTest() {
+        assertEquals("woowwoowwoow", new ExampleApiOneClass().exampleApiMethodTestedByIT(3, "woow"));
+    }
+
+    @Test
+    public void apiTwoTest() {
+        assertEquals(2, new ExampleApiTwoClass().returnApiNumber());
     }
 }
